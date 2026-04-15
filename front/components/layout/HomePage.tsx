@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function HomePage () {
     return(
-        <section id="home" className="w-full h-screen flex items-center justify-center px-4 flex-col gap-6">
+        <section id="home" className="w-full h-screen flex items-center justify-center px-4 flex-col gap-6 border-b border-amber-200/20">
             <div>
                 <Image src="/barberwheels-removebg-preview.png" alt="logo" width={400} height={100}></Image>
             </div>
