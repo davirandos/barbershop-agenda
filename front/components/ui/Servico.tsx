@@ -7,7 +7,7 @@ type Props = {
 
 export function Servico({ nome, preco, duracao, className }: Props) {
     return (
-        <div className={`bg-stone-900 text-white p-4 rounded border border-gray-700 ${className}`}>
+        <div className={`bg-stone-900 text-white p-4 rounded border border-gray-700 hover:border-amber-400/20 hover:shadow-lg cursor-pointer hover:shadow-amber-400/4 ${className}`}>
             <div className="flex justify-between">
                 <div>
                     <h2 className="text-lg font-semibold">{nome}</h2>
